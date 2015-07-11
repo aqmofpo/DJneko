@@ -107,6 +107,7 @@ void draw() {
   map(mouseY, 0, height, 35, 45), 6, 8);
 
   //mouse
+  fill(150, 50, 50);
   ellipse(map(mouseX, 0, width, 45+mouseY/50, 55-mouseY/50), 
   map(mouseY, 0, height, 55+mouseY/50, 60+mouseY/110), 
   10+mouseY/50, 15-mouseY/50);
